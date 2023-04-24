@@ -1808,6 +1808,7 @@ from .spreaker import (
 )
 from .springboardplatform import SpringboardPlatformIE
 from .sprout import SproutIE
+from .sproutvideo import SproutVideoIE
 from .srgssr import (
     SRGSSRIE,
     SRGSSRPlayIE,

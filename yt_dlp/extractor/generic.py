@@ -1778,6 +1778,18 @@ class GenericIE(InfoExtractor):
                 'thumbnail': r're:^https?://.*',
             },
         },
+        {
+            # SproutVideo iframe in page
+            'url': 'https://www.solidarum.org/vivre-ensemble/adrien-labaeye-berlin-des-communautes-aux-communs',
+            'info_dict': {
+                'id': '4c9dddb01910e3c9c4',
+                'ext': 'mp4',
+                'title': 'Adrien Labaeye : Berlin, des communautés aux communs',
+                },
+            'params': {
+                'skip_download': True,
+                },
+            },
         # {
         #     # TODO: find another test
         #     # http://schema.org/VideoObject
